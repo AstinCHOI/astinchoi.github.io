@@ -71,5 +71,3 @@ highlighter: pygments
 sass:
   sass_dir: _sass
   style: :compressed
-
-gems: ['jekyll_video_tag']
