@@ -4,7 +4,7 @@ title: Masaaki Kishibe - Flower (Hana)
 tags: [guitar, fingerstyle, music]
 ---
 
-{% video //media.astinchoi.com/2015/video/20150920-masaaki_kishibe-flower.mp4 %}   
+<center><iframe width="480" height="360" src="http://media.astinchoi.com/2015/video/20150920-masaaki_kishibe-flower.mp4" frameborder="0"></iframe><p/></center>
 
 Video: iPhone 5  
 Audio: Zoom H1  
