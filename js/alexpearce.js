@@ -6,11 +6,7 @@
 // Returns:
 //   string
 var majusculeFirst = function(str) {
-  var temp = str.charAt(0).toUpperCase();
-  for (var i = 1; i < str.length; i++) {
-    temp += str.charAt(i).toLowerCase();
-  }
-  return temp;
+  return str.charAt(0).toUpperCase() + str.substring(1);
 }
 
 // Retrieves the value of a GET parameter with a given key

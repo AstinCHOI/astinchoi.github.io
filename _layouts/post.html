@@ -11,11 +11,10 @@ layout: default
   </header>
   <section class="post-content">{{ content }}</section>
   
-  <ul class="tags post-tags cf">
   {% for tag in page.tags %}
-  <li><a href="/search/?tags={{ tag }}">{{ tag | downcase }}</a></li>
+  <a href="/search/?tags={{ tag }}">#{{ tag | downcase }}</a>&nbsp;&nbsp;&nbsp;
   {% endfor %}
-  </ul>
+  
 </article>
 
 <!-- Post navigation -->

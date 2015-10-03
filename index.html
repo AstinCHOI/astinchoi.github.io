@@ -20,7 +20,10 @@ layout: default
           </a>
         </h1>
         <p class="meta">
-          {{ post.date | date: "%B %-d, %Y" }}
+          {{ post.date | date: "%B %-d, %Y" }}&nbsp;&nbsp;&nbsp;
+          {% for tag in post.tags %}
+          <a class="meta" href="/search/?tags={{ tag }}">#{{ tag | downcase }}</a>&nbsp;&nbsp;&nbsp;
+          {% endfor %}
         </p>
       </header>
       <div class="excerpt">
