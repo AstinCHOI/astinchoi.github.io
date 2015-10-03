@@ -8,16 +8,15 @@ theme:
   title: Astin
   #avatar: avatar.png
   #gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "Everything is nothing, nothing is everything." # used by search engines
 
   # Header and footer text
   # header_text: >
-  #    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  #    <p>Something</p>
 
-  #    <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   © 2015-2016 <a href="http://www.astinchoi.com/about/">Astin</a> Powered by <a href="http://jekyllrb.com">Jekyll</a> 
 
   # Icons
   rss: false
@@ -43,7 +42,7 @@ theme:
 
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  disqus_shortname: astinchoi
   katex: true # Enable if using math markup
 
   # Localization strings
@@ -62,7 +61,7 @@ theme:
   post_navigation: false
 
 # PAGINATION
-paginate: 5
+paginate: 10
 paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
