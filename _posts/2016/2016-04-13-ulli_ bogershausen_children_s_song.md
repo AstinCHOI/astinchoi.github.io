@@ -5,7 +5,7 @@ tags: [guitar, fingerstyle, music]
 ---
 
 <video id="my-video" class="video-js" controls preload="auto" width="480" height="360"
-poster="http://media.astinchoi.com/2016/video/20160413-ulli_ bogershausen_children_s_song.png" data-setup="{}">
+poster="http://media.astinchoi.com/2016/video/20160413-ulli_bogershausen_children_s_song.png" data-setup="{}">
 <source src="http://media.astinchoi.com/2016/video/20160413-ulli_bogershausen-children_s_song.mp4" type='video/mp4'>
 <p class="vjs-no-js">
   To view this video please enable JavaScript, and consider upgrading to a web browser that
