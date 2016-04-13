@@ -5,7 +5,7 @@ tags: [guitar, fingerstyle, music]
 ---
 
 <video id="my-video" class="video-js" controls preload="auto" width="480" height="360"
-poster="" data-setup="{}">
+poster="http://media.astinchoi.com/2015/video/20150920-masaaki_kishibe-flower.png" data-setup="{}">
 <source src="http://media.astinchoi.com/2015/video/20150920-masaaki_kishibe-flower.mp4" type='video/mp4'>
 <p class="vjs-no-js">
   To view this video please enable JavaScript, and consider upgrading to a web browser that
