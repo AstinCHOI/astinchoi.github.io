@@ -4,7 +4,7 @@ title: Masaaki Kishibe - Hana (Flower)
 tags: [guitar, fingerstyle, music]
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oUhELktCezg" frameborder="0" allowfullscreen></iframe><br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oUhELktCezg" frameborder="0" allowfullscreen></iframe><p/>
 
 Video: iPhone 5  
 Audio: Zoom H1  
