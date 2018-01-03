@@ -12,6 +12,9 @@
 .call-out p:last-child {
   margin-bottom: 0;
 }
+.call-out a {
+  color: $header-desc-link-color
+}
 // Post listing
 .posts {
   .post-teaser {
@@ -20,10 +23,9 @@
     margin-bottom: 0;
     display: inline-block;
     background-size: $feature-image-size;
-    font-size: 0.7em;
     border-bottom: 1px solid $border-color;
-    p a:hover {
-      @extend %link-hover;
+    p a {
+      @extend .body-link;
     }
   }
   .excerpt {
@@ -40,4 +42,7 @@
 .pagination {
   padding: $padding-small $padding-large 0 $padding-large;
   text-align: center;
+  @media (max-width: 600px) {
+    padding: $padding-small;
+  }
 }
