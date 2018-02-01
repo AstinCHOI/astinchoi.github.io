@@ -91,8 +91,8 @@ http {
  # Start nginx
  $ sudo sbin/nginx
  
- $ sudo sbin/nginx -s reload
- $ sudo sbin/nginx -s stop
+ # $ sudo sbin/nginx -s reload
+ # $ sudo sbin/nginx -s stop
 
  # Check the Process 
  $ ps aux | grep nginx
