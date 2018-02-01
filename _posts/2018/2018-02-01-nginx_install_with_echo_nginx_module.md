@@ -6,13 +6,14 @@ tags: [nginx, http, echo-nginx-module, echo_read_request_body]
 
 
 ### 1. Why post?
-1.1. Sometimes I need to check **the HTTP logs** such as post body and some headers from **the cloud services.** So, I just choose the nginx for this.
+1.1. Sometimes I need to check **the HTTP logs** such as post body and some headers from **the cloud services.** So, I just choose the nginx for this.  
 
-1.2. In order to install nginx modules, you have to install manually, not using package managements such as apt-get and yum.
+1.2. In order to install nginx modules, you have to install manually, not using package managements such as apt-get and yum.  
 
 
 ### 2. Installation
-2.1. Install the echo-nginx-module module and its dependencies (Ubuntu)
+2.1. Install the echo-nginx-module module and its dependencies (Ubuntu)  
+
 
 ```bash
  $ sudo apt-get install build-essential zlib1g-dev libpcre3 libpcre3-dev unzip
@@ -42,6 +43,8 @@ tags: [nginx, http, echo-nginx-module, echo_read_request_body]
 $ cd /usr/local/nginx
 $ sudo vim conf/nginx.conf
 ```
+
+* See the request_body in "log_format" and if statement in "location /".
 
 ```nginx
 http {
@@ -95,14 +98,30 @@ http {
  $ ps aux | grep nginx
 ```
 
+4.1. Then, test like this.
+
+```bash
+ $ curl -X POST http://localhost --data 'hello world'
+```
+
+And
+
+[http://localhost](http://localhost) in your browser.
+
+4.2. Finally Check the logs.
+```bash
+ $ cat /usr/local/nginx/logs/access.log
+ $ cat /usr/local/nginx/logs/host.access.log
+```
+
 
 ### 5. Further works
-> Nginx preference directives
-> Use more functions for 'echo-nginx-module'
-> Other usuful nginx modules installation 
-> Vim shortcut
+* Nginx preference directives
+* Use more functions for 'echo-nginx-module'
+* Other usuful nginx modules installation 
+* Vim shortcut
 
 
 ### 6. Reference
-6.1. https://github.com/openresty/echo-nginx-module#installation
-6.2. https://github.com/openresty/echo-nginx-module#echo_read_request_body
+6.1. https://github.com/openresty/echo-nginx-module#installation  
+6.2. https://github.com/openresty/echo-nginx-module#echo_read_request_body  
